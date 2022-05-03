@@ -24,7 +24,10 @@ namespace Game.ProjectZ
         void Awake()
         {
             CreateSingleton(this, () => Destroy(this.gameObject));
-            relationship = mainFlow.GetFloatVariable("relationship");
+
+            if (mainFlow != null)
+                relationship = mainFlow.GetFloatVariable("relationship");
+            
             audioSource = GetComponent<AudioSource>();
         }
 
@@ -40,12 +43,14 @@ namespace Game.ProjectZ
             if (pause)
             {
                 audioSource.Pause();
-                jbc.StopTrack();
+                if (jbc != null)
+                    jbc.StopTrack();
             }
             else
             {
                 audioSource.Play();
-                jbc.PlayTrack();
+                if (jbc != null)
+                    jbc.PlayTrack();
             }
 
             Time.timeScale = pause ? 0 : 1f;
@@ -56,6 +61,7 @@ namespace Game.ProjectZ
 
         public void UpdateRelationship(int amountToAddOrSubtract)
         {
+            if (mainFlow == null) return;
             relationship += amountToAddOrSubtract;
             float percentage = relationship / maxRelationship;
             relationshipMeter.fillAmount = percentage;

@@ -3,7 +3,7 @@ using MDI.Gamekit.MadBox;
 using MPUIKIT;
 using UnityEngine;
 
-namespace Game.ProjectZ
+namespace Game.GameProductionOne
 {
     public class GameManager : MonoSingleton<GameManager>
     {

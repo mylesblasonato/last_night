@@ -1,7 +1,7 @@
 using Fungus;
 using UnityEngine;
 
-namespace Game.ProjectZ
+namespace Game.GameProductionOne
 {
     public class HotspotController : MonoBehaviour
     {

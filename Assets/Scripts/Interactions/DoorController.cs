@@ -3,7 +3,7 @@ using UnityEngine;
 using Cinemachine;
 using System.Collections;
 
-namespace Game.ProjectZ
+namespace Game.GameProductionOne
 {
     public class DoorController : MonoBehaviour
     {

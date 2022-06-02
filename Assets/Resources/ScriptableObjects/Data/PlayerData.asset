@@ -15,6 +15,6 @@ MonoBehaviour:
   transform: {fileID: 0}
   speed: 20
   runMultiplier: 1.5
-  sensitivity: 150
+  sensitivity: 300
   idleShakeAmplitude: 0.5
   moveShakeAmplitude: 1

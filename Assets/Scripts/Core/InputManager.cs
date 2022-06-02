@@ -1,7 +1,7 @@
 using MDI.Gamekit.Input;
 using UnityEngine;
 
-namespace Game.ProjectZ{
+namespace Game.GameProductionOne{
     public class InputManager : MDI.Gamekit.Input.OldUnityInput{
 
     }

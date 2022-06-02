@@ -3,7 +3,7 @@ using UnityEngine;
 using UltEvents;
 using TMPro;
 
-namespace Game.ProjectZ
+namespace Game.GameProductionOne
 {
     public class JukeBoxButtonController : MonoBehaviour
     {

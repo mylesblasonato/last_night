@@ -2,7 +2,7 @@ using Fungus;
 using MDI.Gamekit.Core;
 using UnityEngine;
 
-namespace Game.ProjectZ
+namespace Game.GameProductionOne
 {
     public class HotspotManager : MonoSingleton<HotspotManager>
     {

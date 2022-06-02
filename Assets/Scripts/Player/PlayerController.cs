@@ -4,7 +4,7 @@ using UltEvents;
 using MDI.Gamekit.CharacterController;
 using MDI.Gamekit.Input;
 
-namespace Game.ProjectZ
+namespace Game.GameProductionOne
 {
     public class PlayerController : Player{
         [SerializeField] new CinemachineVirtualCamera camera;

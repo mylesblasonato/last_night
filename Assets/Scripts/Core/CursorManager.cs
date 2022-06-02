@@ -2,7 +2,7 @@ using MPUIKIT;
 using TMPro;
 using UnityEngine;
 
-namespace Game.ProjectZ{
+namespace Game.GameProductionOne{
     public class CursorManager : MonoSingleton<CursorManager>{
         [SerializeField] TextMeshProUGUI interactableNameText;
         [SerializeField] TextMeshProUGUI TutorialText;

@@ -2,7 +2,7 @@ using Fungus;
 using MDI.Gamekit.Interactables;
 using UnityEngine;
 
-namespace Game.ProjectZ{
+namespace Game.GameProductionOne{
     public class UseController : MonoBehaviour{
         #region SFIELDS
         [SerializeField] string playerCameraTag = "PlayerCamera";

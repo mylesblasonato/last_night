@@ -4,7 +4,7 @@ using MDI.Gamekit.Input;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Game.ProjectZ
+namespace Game.GameProductionOne
 {
     public class Player : MonoBehaviour{
         float speedMultiplier = 0;

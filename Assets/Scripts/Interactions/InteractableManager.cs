@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Game.ProjectZ{
+namespace Game.GameProductionOne{
     public class InteractableManager : MonoSingleton<InteractableManager>
     {
         void Awake()

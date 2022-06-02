@@ -4,7 +4,7 @@ using UnityEngine.Animations.Rigging;
 using MDI.Gamekit.Interactables;
 using UnityEngine.Timeline;
 
-namespace Game.ProjectZ{
+namespace Game.GameProductionOne{
     public class IKGrabItem : MonoBehaviour{
         [SerializeField] string grabPointLeftHandTag;
         [SerializeField] string grabPointRightHandTag;

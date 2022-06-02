@@ -3,7 +3,7 @@ using MDI.Gamekit.Interactables;
 using UnityEngine;
 using MDI.Gamekit.Core;
 
-namespace Game.ProjectZ
+namespace Game.GameProductionOne
 {
     public class InteractableController : MonoBehaviour
     {
